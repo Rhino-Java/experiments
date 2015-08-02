@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE log4j:configuration PUBLIC "-//log4j/log4j Configuration//EN" "log4j.dtd">
+
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/"
+	debug="false">
+
+	<appender name="RollingAppender" class="org.apache.log4j.DailyRollingFileAppender">
+
+		<param name="File" value="log/app.log" />
+		<param name="append" value="true" />
+		<param name="encoding" value="UTF-8" />
+		<param name="immediateFlush" value="true" />
+		<param name="threshold" value="debug" />
+		<param name="datePattern" value="'.'yyyyMMdd" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d{dd-MMM-yyyy HH:mm:ss,SSS} [%p] [%t] [%l] %m%n" />
+		</layout>
+	</appender>
+	<appender name="ConsoleAppender" class="org.apache.log4j.ConsoleAppender">
+		<param name="encoding" value="UTF-8" />
+		<param name="immediateFlush" value="true" />
+		<param name="threshold" value="warn" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d{dd-MMM-yyyy HH:mm:ss,SSS} [%p] [%t] [%l] %m%n" />
+		</layout>
+	</appender>
+	<logger name="test.example" additivity="false">
+		<level value="info" />
+		<appender-ref ref="ConsoleAppender" />
+		<appender-ref ref="RollingAppender" />
+	</logger>
+	<root>
+		<priority value="error" />
+		<appender-ref ref="ConsoleAppender" />
+		<appender-ref ref="RollingAppender" />
+	</root>
+</log4j:configuration> 
