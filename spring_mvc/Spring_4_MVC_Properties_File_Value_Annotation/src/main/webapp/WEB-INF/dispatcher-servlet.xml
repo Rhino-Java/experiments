@@ -1,0 +1,36 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-4.2.xsd 
+	http://www.springframework.org/schema/context 
+	http://www.springframework.org/schema/context/spring-context-4.2.xsd">
+	
+	<bean id="propertyConfigurer"
+		class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+		<property name="locations">
+			<list>
+				<!-- Write name of property file along with its path here. If the file 
+					is on the classpath, write 'classpath:filename' -->
+				<value>classpath:config.properties</value>
+				<!-- List other property files here -->
+			</list>
+		</property>
+	</bean>
+	
+	
+
+	<context:component-scan base-package="test.example" />
+
+	<bean
+		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<property name="prefix">
+			<!-- Following is the way of using properties file value in spring configuration 
+				file -->
+			<value>${spring.prefix}</value>
+		</property>
+		<property name="suffix">
+			<value>${spring.suffix}</value>
+		</property>
+	</bean>
+</beans>
