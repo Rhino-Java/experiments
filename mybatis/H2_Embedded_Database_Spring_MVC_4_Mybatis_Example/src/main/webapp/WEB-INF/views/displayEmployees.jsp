@@ -21,14 +21,14 @@ li {
 		<c:otherwise>
 			<br />
 			<h2>Employees read from the database -</h2>
-			
-				<ol>
-					<c:forEach items="${empList}" var="emp">
-						<li><c:out value="${emp}" /></li>
-						
-					</c:forEach>
-				</ol>
-			
+
+			<ol>
+				<c:forEach items="${empList}" var="emp">
+					<li><c:out value="${emp}" /></li>
+
+				</c:forEach>
+			</ol>
+
 		</c:otherwise>
 	</c:choose>
 

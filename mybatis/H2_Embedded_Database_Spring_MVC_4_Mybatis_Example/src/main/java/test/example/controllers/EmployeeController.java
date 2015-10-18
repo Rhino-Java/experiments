@@ -19,6 +19,7 @@ public class EmployeeController {
 
 	@RequestMapping(value = "/createemp", method = RequestMethod.GET)
 	public ModelAndView createTable() {
+		employeeService.deleteOldTable();
 		employeeService.createTable();
 		ModelAndView modelAndView = new ModelAndView("displayStatus");
 		modelAndView.getModelMap().put("msg", "Table with name Employee is created");
