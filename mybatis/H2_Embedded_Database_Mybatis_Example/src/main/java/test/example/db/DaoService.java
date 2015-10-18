@@ -84,7 +84,7 @@ public class DaoService {
 
 		int updatedRows = employeeMapper.updateByExampleSelective(employee, employeeExample);
 
-		System.out.println(updatedRows + " rows are updated from the database and their department is set to student");
+		System.out.println(updatedRows + " rows are updated in the database and their department is set to student");
 		sqlSession.commit();
 		sqlSession.close();
 
