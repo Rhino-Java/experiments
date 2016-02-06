@@ -43,7 +43,7 @@ public class App {
 
 		WebElement textInput = driver.findElement(By.cssSelector(TEXT_INPUT_CSS_SELECTOR));
 
-		textInput.sendKeys("adfasdfasdfasdfadafdfadfadfasd");
+		textInput.sendKeys("selenium");
 
 		if (driver.findElements(By.cssSelector(SEARCH_BUTTON_CSS_SELECTOR)).isEmpty()) {
 
