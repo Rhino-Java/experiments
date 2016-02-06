@@ -2,7 +2,6 @@ package test.example.db;
 
 import java.sql.Connection;
 import java.sql.Date;
-import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -14,20 +13,10 @@ import test.example.model.Employee;
 
 public class DaoService {
 
-	private static Connection getDbConnection() throws SQLException, ClassNotFoundException {
-
-		Class.forName(DbConstants.DB_DRIVER);
-
-		Connection dbConnection = DriverManager.getConnection(DbConstants.DB_CONNECTION_URL, DbConstants.DB_USER,
-				DbConstants.DB_PASSWORD);
-
-		return dbConnection;
-	}
-
 	public static void createTable() throws ClassNotFoundException, SQLException {
 		// Delete database file, if already exist
 		DeleteDbFiles.execute(DbConstants.DB_DIR, DbConstants.DATABASE_NAME, true);
-		Connection connection = getDbConnection();
+		Connection connection = ConnectionFactory.getConnection();
 
 		connection.setAutoCommit(false);
 
@@ -44,7 +33,7 @@ public class DaoService {
 
 	public static void insertDataUsingStatement() throws SQLException, ClassNotFoundException {
 
-		Connection connection = getDbConnection();
+		Connection connection = ConnectionFactory.getConnection();
 
 		connection.setAutoCommit(false);
 		Statement stmt = connection.createStatement();
@@ -67,7 +56,7 @@ public class DaoService {
 	}
 
 	public static void getData() throws SQLException, ClassNotFoundException {
-		Connection connection = getDbConnection();
+		Connection connection = ConnectionFactory.getConnection();
 		Statement stmt = connection.createStatement();
 		connection.setAutoCommit(false);
 		ResultSet resultSet = stmt.executeQuery(DbQueries.SELECT_EMP_TABLE);
@@ -95,7 +84,7 @@ public class DaoService {
 	}
 
 	public static void insertUsingPreparedStatement() throws SQLException, ClassNotFoundException {
-		Connection connection = getDbConnection();
+		Connection connection = ConnectionFactory.getConnection();
 
 		PreparedStatement insertPreparedStatement = null;
 		connection.setAutoCommit(false);
@@ -120,7 +109,7 @@ public class DaoService {
 	}
 
 	public static void deleteEmployees() throws ClassNotFoundException, SQLException {
-		Connection connection = getDbConnection();
+		Connection connection = ConnectionFactory.getConnection();
 		connection.setAutoCommit(false);
 		Statement stmt = connection.createStatement();
 
@@ -135,7 +124,7 @@ public class DaoService {
 	}
 
 	public static void updateEmployees() throws SQLException, ClassNotFoundException {
-		Connection connection = getDbConnection();
+		Connection connection = ConnectionFactory.getConnection();
 		connection.setAutoCommit(false);
 		Statement stmt = connection.createStatement();
 
