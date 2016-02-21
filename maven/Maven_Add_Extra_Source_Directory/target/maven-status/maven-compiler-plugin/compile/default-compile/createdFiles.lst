@@ -1,0 +1,13 @@
+test\example\db\dao\CustomEmployeeMapper.class
+test\example\db\dao\EmployeeSqlProvider.class
+test\example\db\DaoService.class
+test\example\util\CloneUtility.class
+test\example\db\dao\EmployeeMapper.class
+test\example\model\EmployeeExample.class
+test\example\App.class
+test\example\model\EmployeeExample$GeneratedCriteria.class
+test\example\model\EmployeeExample$Criteria.class
+test\example\db\DbConstants.class
+test\example\model\EmployeeExample$Criterion.class
+test\example\db\SqlFactory.class
+test\example\model\Employee.class
