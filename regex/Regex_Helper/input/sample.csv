@@ -1,0 +1,206 @@
+2015/2/28,D,Opening,O/B,Opening Bank Statement Balance,3,400.00, E , B1 ,BS-399,2015/2/28
+2015/2/28,D,Opening,O/B,Opening Bank Statement Balance,1,600.00, E , B2 ,BS-399,2015/2/28
+2015/2/28,D,Opening,O/B,Opening Bank Statement Balance, -   , E , B3 ,BS-399,2015/2/28
+2015/2/28,D,Opening,O/B,Opening Petty Cash Balance,1,000.00, E , PC ,BS-399,2015/2/28
+2015/3/2,W,XY Solutions,Invoice EXP09,Internet Service Provider,165.3, A , B1 ,IS-380,2015/3/2
+2015/3/5,W,Hollard,Debit Order,Insurance,364.8, A , B1 ,IS-340,2015/3/5
+2015/3/10,D,WS Wholesale,INV0052,Consulting Services,17,100.00, A , B1 ,IS-100,2015/3/10
+2015/3/15,W,ABSA,Bank Statement,Service Fees,57, A , B1 ,IS-315,2015/3/15
+2015/3/20,D,Transfer,Bank Statement,Bank Transfer,8,000.00, E , B2 ,BS-399,2015/3/20
+2015/3/20,W,Transfer,Bank Statement,Bank Transfer,8,000.00, E , B1 ,BS-399,2015/3/20
+2015/3/25,W,Cash,Bank Statement,Petty Cash Reimbursement,210, E , B1 ,BS-399,2015/3/25
+2015/3/25,D,Cash,Bank Statement,Petty Cash Reimbursement,210, E , PC ,BS-399,2015/3/25
+2015/3/26,W,Payroll,Payroll,Salaries,8,000.00, E , B2 ,IS-365,2015/3/26
+2015/3/26,W,PR Properties,Debit Order,Rent,5,700.00, A , B1 ,IS-350,2015/3/26
+2015/3/26,W,SQ Financial Services,Debit Order,Interest paid,100, E , B1 ,IS-500,2015/3/26
+2015/3/31,W,XY Solutions,Invoice EXP10,Internet Service Provider,165.3, A , B1 ,IS-380,2015/3/31
+2015/4/2,W,IAS Accountants,Invoice,Bookkeeping,912, A , B1 ,IS-305,2015/4/2
+2015/4/5,W,Hollard,Debit Order,Insurance,364.8, A , B1 ,IS-340,2015/4/5
+2015/4/10,W,Waltons,Invoice,Paper,228, A , PC ,IS-325,2015/4/10
+2015/4/13,D,GP Accountants,INV0054,Consulting Services,9,291.00, A , B1 ,IS-100,2015/4/13
+2015/4/14,D,TRF Solutions,INV0053,Consulting Services,12,768.00, A , B1 ,IS-100,2015/4/14
+2015/4/15,W,ABSA,Bank Statement,Service Fees,57, A , B1 ,IS-315,2015/4/15
+2015/4/20,D,Transfer,Bank Statement,Bank Transfer,8,000.00, E , B2 ,BS-399,2015/4/20
+2015/4/20,W,Transfer,Bank Statement,Bank Transfer,8,000.00, E , B1 ,BS-399,2015/4/20
+2015/4/24,W,Waltons,Invoice,Paper,228, A , PC ,IS-325,2015/4/24
+2015/4/25,W,Cash,Bank Statement,Petty Cash Reimbursement,320, E , B1 ,BS-399,2015/4/25
+2015/4/25,D,Cash,Bank Statement,Petty Cash Reimbursement,320, E , PC ,BS-399,2015/4/25
+2015/4/25,W,Inland Revenue,Return,Sales Tax,2,700.00, E , B1 ,BS-600,2015/4/25
+2015/4/26,W,Payroll,Payroll,Salaries,8,000.00, E , B2 ,IS-365,2015/4/26
+2015/4/26,W,PR Properties,Debit Order,Rent,5,700.00, A , B1 ,IS-350,2015/4/26
+2015/4/26,W,SQ Financial Services,Debit Order,Interest paid,100, E , B1 ,IS-500,2015/4/26
+2015/4/27,D,WC Financial Advisors,INV0056,Taxation Services,7,980.00, A , B1 ,IS-100,2015/4/27
+2015/4/27,D,WC Financial Advisors,INV0056,Accounting Services,3,762.00, A , B1 ,IS-100,2015/4/27
+2015/4/27,D,WC Financial Advisors,INV0056,Consulting Services,37,777.32, A , B1 ,IS-100,2015/4/27
+2015/5/1,W,XY Solutions,Invoice EXP11,Internet Service Provider,165.3, A , B1 ,IS-380,2015/5/1
+2015/5/3,W,IAS Accountants,Invoice,Bookkeeping,912, A , B1 ,IS-305,2015/5/3
+2015/5/5,W,Hollard,Debit Order,Insurance,364.8, A , B1 ,IS-340,2015/5/5
+2015/5/8,D,ABC Limited,INV0055,Accounting Services,17,100.00, A , B1 ,IS-100,2015/5/8
+2015/5/8,W,Waltons,Invoice,Paper,228, A , PC ,IS-325,2015/5/8
+2015/5/15,W,ABSA,Bank Statement,Service Fees,57, A , B1 ,IS-315,2015/5/15
+2015/5/20,D,Transfer,Bank Statement,Bank Transfer,13,000.00, E , B2 ,BS-399,2015/5/20
+2015/5/20,W,Transfer,Bank Statement,Bank Transfer,13,000.00, E , B1 ,BS-399,2015/5/20
+2015/5/22,W,PQW Parking,TR5674,Parking,641.82, A , B1 ,IS-390,2015/5/22
+2015/5/22,W,Waltons,Invoice,Paper,228, A , PC ,IS-325,2015/5/22
+2015/5/25,W,Cash,Bank Statement,Petty Cash Reimbursement,250, E , B1 ,BS-399,2015/5/25
+2015/5/25,D,Cash,Bank Statement,Petty Cash Reimbursement,250, E , PC ,BS-399,2015/5/25
+2015/5/26,W,Payroll,Payroll,Salaries,13,000.00, E , B2 ,IS-365,2015/5/26
+2015/5/26,W,PR Properties,Debit Order,Rent,5,700.00, A , B1 ,IS-350,2015/5/26
+2015/5/26,W,SQ Financial Services,Debit Order,Interest paid,100, E , B1 ,IS-500,2015/5/26
+2015/5/27,D,LS Retail,X9987,Commission Received,5,962.20, A , B1 ,IS-200,2015/5/31
+2015/5/31,W,XY Solutions,Invoice EXP12,Internet Service Provider,165.3, A , B1 ,IS-380,2015/5/31
+2015/6/2,W,IAS Accountants,Invoice,Bookkeeping,912, A , B1 ,IS-305,2015/6/2
+2015/6/5,W,Hollard,Debit Order,Insurance,364.8, A , B1 ,IS-340,2015/6/5
+2015/6/5,W,Waltons,Invoice,Paper,228, A , PC ,IS-325,2015/6/5
+2015/6/10,D,SQ Financial Services,Statement,Loan Received,8,100.00, E , B1 ,BS-700,2015/6/10
+2015/6/11,D,XX Building Supplies,INV0057,Accounting Services,4,560.00, A , B1 ,IS-100,2015/6/11
+2015/6/15,W,ABSA,Bank Statement,Service Fees,57, A , B1 ,IS-315,2015/6/15
+2015/6/15,W,Finance Week,Bank Statement,Annual Subscription,1,368.00, A , B1 ,IS-375,2015/6/15
+2015/6/19,W,Waltons,Invoice,Paper,228, A , PC ,IS-325,2015/6/19
+2015/6/20,D,Transfer,Bank Statement,Bank Transfer,13,000.00, E , B2 ,BS-399,2015/6/20
+2015/6/20,W,Transfer,Bank Statement,Bank Transfer,13,000.00, E , B1 ,BS-399,2015/6/20
+2015/6/25,W,Cash,Bank Statement,Petty Cash Reimbursement,200, E , B1 ,BS-399,2015/6/25
+2015/6/25,D,Cash,Bank Statement,Petty Cash Reimbursement,200, E , PC ,BS-399,2015/6/25
+2015/6/25,W,Inland Revenue,Return,Sales Tax,5,000.00, E , B1 ,BS-600,2015/6/25
+2015/6/25,W,XR Supplies,Invoice,Computer equipment,5,700.00, A , B1 ,BS-100,2015/6/25
+2015/6/26,W,Payroll,Payroll,Salaries,13,000.00, E , B2 ,IS-365,2015/6/26
+2015/6/26,W,PR Properties,Debit Order,Rent,5,700.00, A , B1 ,IS-350,2015/6/26
+2015/6/26,W,SQ Financial Services,Debit Order,Capital repayment,220, E , B1 ,BS-700,2015/6/26
+2015/6/26,W,SQ Financial Services,Debit Order,Interest paid,100, E , B1 ,IS-500,2015/6/26
+2015/6/26,D,TRF Solutions,INV0058,Accounting Services,15,276.00, A , B1 ,IS-100,2015/6/26
+2015/7/1,D,WW Retail,INV0059,Taxation Services,5,130.00, A , B1 ,IS-100,2015/7/1
+2015/7/1,W,XY Solutions,Invoice EXP13,Internet Service Provider,165.3, A , B1 ,IS-380,2015/7/1
+2015/7/3,W,IAS Accountants,Invoice,Bookkeeping,912, A , B1 ,IS-305,2015/7/3
+2015/7/3,W,Waltons,Invoice,Paper,250.17, A , PC ,IS-325,2015/7/3
+2015/7/5,W,Hollard,Debit Order,Insurance,364.8, A , B1 ,IS-340,2015/7/5
+2015/7/11,W,PQW Parking,TR5982,Parking,229.14, A , B1 ,IS-390,2015/7/11
+2015/7/15,W,ABSA,Bank Statement,Service Fees,57, A , B1 ,IS-315,2015/7/15
+2015/7/17,W,SPAR,IN1123,Consumables,111.72, A , PC ,IS-325,2015/7/17
+2015/7/20,D,Transfer,Bank Statement,Bank Transfer,13,000.00, E , B2 ,BS-399,2015/7/20
+2015/7/20,W,Transfer,Bank Statement,Bank Transfer,13,000.00, E , B1 ,BS-399,2015/7/20
+2015/7/23,D,DF Manufacturing,INV0060,Accounting Services,3,192.00, A , B1 ,IS-100,2015/7/23
+2015/7/25,W,Cash,Bank Statement,Petty Cash Reimbursement,280, E , B1 ,BS-399,2015/7/25
+2015/7/25,D,Cash,Bank Statement,Petty Cash Reimbursement,280, E , PC ,BS-399,2015/7/25
+2015/7/26,W,Payroll,Payroll,Salaries,13,000.00, E , B2 ,IS-365,2015/7/26
+2015/7/26,W,PR Properties,Debit Order,Rent,5,700.00, A , B1 ,IS-350,2015/7/26
+2015/7/26,W,SQ Financial Services,Debit Order,Capital repayment,220, E , B1 ,BS-700,2015/7/26
+2015/7/26,W,SQ Financial Services,Debit Order,Interest paid,100, E , B1 ,IS-500,2015/7/26
+2015/7/31,D,DF Manufacturing,INV0062,Consulting Services,25,080.00, A , B1 ,IS-100,2015/7/31
+2015/7/31,W,XY Solutions,Invoice EXP14,Internet Service Provider,165.3, A , B1 ,IS-380,2015/7/31
+2015/8/2,W,IAS Accountants,Invoice,Bookkeeping,912, A , B1 ,IS-305,2015/8/2
+2015/8/4,D,Digicom,INV0061,Consulting Services,36,480.00, A , B1 ,IS-100,2015/8/4
+2015/8/5,W,Hollard,Debit Order,Insurance,364.8, A , B1 ,IS-340,2015/8/5
+2015/8/15,W,ABSA,Bank Statement,Service Fees,57, A , B1 ,IS-315,2015/8/15
+2015/8/20,D,Transfer,Bank Statement,Bank Transfer,13,000.00, E , B2 ,BS-399,2015/8/20
+2015/8/20,W,Transfer,Bank Statement,Bank Transfer,13,000.00, E , B1 ,BS-399,2015/8/20
+2015/8/25,W,Cash,Bank Statement,Petty Cash Reimbursement,190, E , B1 ,BS-399,2015/8/25
+2015/8/25,D,Cash,Bank Statement,Petty Cash Reimbursement,190, E , PC ,BS-399,2015/8/25
+2015/8/25,W,Inland Revenue,Return,Sales Tax,5,900.00, E , B1 ,BS-600,2015/8/25
+2015/8/26,W,Payroll,Payroll,Salaries,13,000.00, E , B2 ,IS-365,2015/8/26
+2015/8/26,W,PR Properties,Debit Order,Rent,5,700.00, A , B1 ,IS-350,2015/8/26
+2015/8/26,W,SQ Financial Services,Debit Order,Capital repayment,220, E , B1 ,BS-700,2015/8/26
+2015/8/26,W,SQ Financial Services,Debit Order,Interest paid,100, E , B1 ,IS-500,2015/8/26
+2015/8/27,W,MM Brokers,O/B S77782,Investment in Shares,5,100.00, E , B1 ,BS-200,2015/9/2
+2015/8/30,W,PQW Parking,TR6290,Parking,202.92, A , B1 ,IS-390,2015/8/30
+2015/8/31,W,XY Solutions,Invoice EXP15,Internet Service Provider,204.06, A , B1 ,IS-380,2015/8/31
+2015/9/2,W,IAS Accountants,Invoice,Bookkeeping,912, A , B1 ,IS-305,2015/9/2
+2015/9/3,D,FS Financial Services,INV0063,Consulting Services,26,220.00, A , B1 ,IS-100,2015/9/3
+2015/9/5,W,Hollard,Debit Order,Insurance,364.8, A , B1 ,IS-340,2015/9/5
+2015/9/6,W,RT Office Supplies,T2518536,Office chair,1,821.72, A , B1 ,IS-345,2015/9/6
+2015/9/12,D,PTY Consultants,INV0064,Consulting Services,13,680.00, A , B1 ,IS-100,2015/9/12
+2015/9/15,W,ABSA,Bank Statement,Service Fees,57, A , B1 ,IS-315,2015/9/15
+2015/9/20,D,Transfer,Bank Statement,Bank Transfer,13,000.00, E , B2 ,BS-399,2015/9/20
+2015/9/20,W,Transfer,Bank Statement,Bank Transfer,13,000.00, E , B1 ,BS-399,2015/9/20
+2015/9/21,W,Town Council,Statement,Rates,4,752.00, E , B1 ,IS-395,2015/9/21
+2015/9/25,W,Cash,Bank Statement,Petty Cash Reimbursement,330, E , B1 ,BS-399,2015/9/25
+2015/9/25,D,Cash,Bank Statement,Petty Cash Reimbursement,330, E , PC ,BS-399,2015/9/25
+2015/9/26,W,Payroll,Payroll,Salaries,13,000.00, E , B2 ,IS-365,2015/9/26
+2015/9/26,W,PR Properties,Debit Order,Rent,5,700.00, A , B1 ,IS-350,2015/9/26
+2015/9/26,W,SQ Financial Services,Debit Order,Capital repayment,220, E , B1 ,BS-700,2015/9/26
+2015/9/26,W,SQ Financial Services,Debit Order,Interest paid,100, E , B1 ,IS-500,2015/9/26
+2015/10/1,W,XY Solutions,Invoice EXP16,Internet Service Provider,204.06, A , B1 ,IS-380,2015/10/1
+2015/10/3,W,IAS Accountants,Invoice,Bookkeeping,912, A , B1 ,IS-305,2015/10/3
+2015/10/4,W,SPAR,IN1145,Consumables,59.28, A , PC ,IS-325,2015/10/4
+2015/10/5,W,Hollard,Debit Order,Insurance,364.8, A , B1 ,IS-340,2015/10/5
+2015/10/9,D,IT Solutions,INV0065,Consulting Services,20,520.00, A , B1 ,IS-100,2015/10/9
+2015/10/15,W,ABSA,Bank Statement,Service Fees,57, A , B1 ,IS-315,2015/10/15
+2015/10/19,W,PQW Parking,TR6598,Parking,3,420.00, A , B1 ,IS-390,2015/10/19
+2015/10/20,D,Transfer,Bank Statement,Bank Transfer,13,000.00, E , B2 ,BS-399,2015/10/20
+2015/10/20,W,Transfer,Bank Statement,Bank Transfer,13,000.00, E , B1 ,BS-399,2015/10/20
+2015/10/21,D,DF Manufacturing,INV0066,Consulting Services,15,390.00, A , B1 ,IS-100,2015/10/21
+2015/10/25,W,Cash,Bank Statement,Petty Cash Reimbursement,220, E , B1 ,BS-399,2015/10/25
+2015/10/25,D,Cash,Bank Statement,Petty Cash Reimbursement,220, E , PC ,BS-399,2015/10/25
+2015/10/25,W,Inland Revenue,Return,Sales Tax,3,500.00, E , B1 ,BS-600,2015/10/25
+2015/10/26,W,Payroll,Payroll,Salaries,13,000.00, E , B2 ,IS-365,2015/10/26
+2015/10/26,W,PR Properties,Debit Order,Rent,5,700.00, A , B1 ,IS-350,2015/10/26
+2015/10/26,W,SQ Financial Services,Debit Order,Capital repayment,220, E , B1 ,BS-700,2015/10/26
+2015/10/26,W,SQ Financial Services,Debit Order,Interest paid,100, E , B1 ,IS-500,2015/10/26
+2015/10/31,W,XY Solutions,Invoice EXP17,Internet Service Provider,204.06, A , B1 ,IS-380,2015/10/31
+2015/11/2,W,GF Training,Invoice,Course,769.5, A , B1 ,IS-385,2015/11/2
+2015/11/2,W,IAS Accountants,Invoice,Bookkeeping,912, A , B1 ,IS-305,2015/11/2
+2015/11/3,D,GP Accountants,INV0067,Accounting Services,3,762.00, A , B1 ,IS-100,2015/11/3
+2015/11/3,D,GP Accountants,INV0067,Taxation Services,2,451.00, A , B1 ,IS-100,2015/11/3
+2015/11/3,D,GP Accountants,INV0067,Secretarial Services,1,026.00, A , B1 ,IS-100,2015/11/3
+2015/11/5,W,Hollard,Debit Order,Insurance,364.8, A , B1 ,IS-340,2015/11/5
+2015/11/7,W,Economist,628054,Subscription,516.71, A , B1 ,IS-375,2015/11/7
+2015/11/15,W,ABSA,Bank Statement,Service Fees,57, A , B1 ,IS-315,2015/11/15
+2015/11/20,D,Transfer,Bank Statement,Bank Transfer,13,000.00, E , B2 ,BS-399,2015/11/20
+2015/11/20,W,Transfer,Bank Statement,Bank Transfer,13,000.00, E , B1 ,BS-399,2015/11/20
+2015/11/25,W,Cash,Bank Statement,Petty Cash Reimbursement,290, E , B1 ,BS-399,2015/11/25
+2015/11/25,D,Cash,Bank Statement,Petty Cash Reimbursement,290, E , PC ,BS-399,2015/11/25
+2015/11/26,W,Payroll,Payroll,Salaries,13,000.00, E , B2 ,IS-365,2015/11/26
+2015/11/26,W,PR Properties,Debit Order,Rent,5,700.00, A , B1 ,IS-350,2015/11/26
+2015/11/26,W,SQ Financial Services,Debit Order,Capital repayment,220, E , B1 ,BS-700,2015/11/26
+2015/11/26,W,SQ Financial Services,Debit Order,Interest paid,100, E , B1 ,IS-500,2015/11/26
+2015/11/30,D,CC Supplies,INV0068,Accounting Services,3,762.00, A , B1 ,IS-100,2015/11/30
+2015/12/1,W,XY Solutions,Invoice EXP18,Internet Service Provider,204.06, A , B1 ,IS-380,2015/12/1
+2015/12/3,W,IAS Accountants,Invoice,Bookkeeping,912, A , B1 ,IS-305,2015/12/3
+2015/12/5,W,Hollard,Debit Order,Insurance,364.8, A , B1 ,IS-340,2015/12/5
+2015/12/5,D,TRF Solutions,INV0069,Consulting Services,17,100.00, A , B1 ,IS-100,2015/12/5
+2015/12/8,W,PQW Parking,TR6906,Parking,228, A , B1 ,IS-390,2015/12/8
+2015/12/15,W,ABSA,Bank Statement,Service Fees,57, A , B1 ,IS-315,2015/12/15
+2015/12/20,D,Transfer,Bank Statement,Bank Transfer,13,000.00, E , B2 ,BS-399,2015/12/20
+2015/12/20,W,Transfer,Bank Statement,Bank Transfer,13,000.00, E , B1 ,BS-399,2015/12/20
+2015/12/22,W,SPAR,IN1149,Consumables,59.28, A , PC ,IS-325,2015/12/22
+2015/12/25,W,Cash,Bank Statement,Petty Cash Reimbursement,390, E , B1 ,BS-399,2015/12/25
+2015/12/25,D,Cash,Bank Statement,Petty Cash Reimbursement,390, E , PC ,BS-399,2015/12/25
+2015/12/25,W,Inland Revenue,Return,Sales Tax,1,500.00, E , B1 ,BS-600,2015/12/25
+2015/12/26,W,Payroll,Payroll,Salaries,13,000.00, E , B2 ,IS-365,2015/12/26
+2015/12/26,W,PR Properties,Debit Order,Rent,5,700.00, A , B1 ,IS-350,2015/12/26
+2015/12/26,W,SQ Financial Services,Debit Order,Capital repayment,220, E , B1 ,BS-700,2015/12/26
+2015/12/26,W,SQ Financial Services,Debit Order,Interest paid,100, E , B1 ,IS-500,2015/12/26
+2015/12/30,D,ABC Limited,INV0070,Consulting Services,16,986.00, A , B1 ,IS-100,2015/12/30
+2015/12/31,W,XY Solutions,Invoice EXP19,Internet Service Provider,204.06, A , B1 ,IS-380,2015/12/31
+2016/1/2,W,IAS Accountants,Invoice,Bookkeeping,912, A , B1 ,IS-305,2016/1/2
+2016/1/4,D,EC Estate Agents,INV0071,Taxation Services,9,311.52, A , B1 ,IS-100,2016/1/4
+2016/1/5,W,Hollard,Debit Order,Insurance,387.6, A , B1 ,IS-340,2016/1/5
+2016/1/15,W,ABSA,Bank Statement,Service Fees,57, A , B1 ,IS-315,2016/1/15
+2016/1/20,D,Transfer,Bank Statement,Bank Transfer,13,000.00, E , B2 ,BS-399,2016/1/20
+2016/1/20,W,Transfer,Bank Statement,Bank Transfer,13,000.00, E , B1 ,BS-399,2016/1/20
+2016/1/25,W,Cash,Bank Statement,Petty Cash Reimbursement,250, E , B1 ,BS-399,2016/1/25
+2016/1/25,D,Cash,Bank Statement,Petty Cash Reimbursement,250, E , PC ,BS-399,2016/1/25
+2016/1/25,D,DF Manufacturing,O/B INV0051,Consulting Services,9,120.00, A , B1 ,IS-100,2016/2/1
+2016/1/25,D,The Paint Shop,INV0072,Taxation Services,2,793.00, A , B1 ,IS-100,2016/1/25
+2016/1/26,W,Payroll,Payroll,Salaries,13,000.00, E , B2 ,IS-365,2016/1/26
+2016/1/26,W,PR Properties,Debit Order,Rent,5,700.00, A , B1 ,IS-350,2016/1/26
+2016/1/26,D,PTY Consultants,INV0074,Consulting Services,21,888.00, A , B1 ,IS-100,2016/1/26
+2016/1/26,W,SQ Financial Services,Debit Order,Capital repayment,220, E , B1 ,BS-700,2016/1/26
+2016/1/26,W,SQ Financial Services,Debit Order,Interest paid,100, E , B1 ,IS-500,2016/1/26
+2016/1/27,W,Qantas,SA8234,Travel,1,273.38, A , B1 ,IS-390,2016/2/2
+2016/1/27,D,WW Retail,INV0073,Consulting Services,20,520.00, A , B1 ,IS-100,2016/1/27
+2016/1/31,W,XY Solutions,Invoice EXP20,Internet Service Provider,204.06, A , B1 ,IS-380,2016/1/31
+2016/2/2,W,IAS Accountants,Invoice,Bookkeeping,912, A , B1 ,IS-305,2016/2/2
+2016/2/5,W,Hollard,Debit Order,Insurance,387.6, A , B1 ,IS-340,2016/2/5
+2016/2/15,W,ABSA,Bank Statement,Service Fees,57, A , B1 ,IS-315,2016/2/15
+2016/2/17,W,SPAR,IN1156,Consumables,111.72, A , PC ,IS-325,2016/2/17
+2016/2/18,D,WS Wholesale,INV0075,Consulting Services,19,365.18, A , B1 ,IS-100,2016/3/18
+2016/2/20,D,Transfer,Bank Statement,Bank Transfer,13,000.00, E , B2 ,BS-399,2016/2/20
+2016/2/20,W,Transfer,Bank Statement,Bank Transfer,13,000.00, E , B1 ,BS-399,2016/2/20
+2016/2/25,W,Cash,Bank Statement,Petty Cash Reimbursement,200, E , B1 ,BS-399,2016/2/25
+2016/2/25,D,Cash,Bank Statement,Petty Cash Reimbursement,200, E , PC ,BS-399,2016/2/25
+2016/2/25,W,Inland Revenue,Return,Sales Tax,3,600.00, E , B1 ,BS-600,2016/2/25
+2016/2/26,W,Payroll,Payroll,Salaries,13,000.00, E , B2 ,IS-365,2016/2/26
+2016/2/26,W,PR Properties,Debit Order,Rent,5,700.00, A , B1 ,IS-350,2016/2/26
+2016/2/26,W,SQ Financial Services,Debit Order,Capital repayment,220, E , B1 ,BS-700,2016/2/26
+2016/2/26,W,SQ Financial Services,Debit Order,Interest paid,100, E , B1 ,IS-500,2016/2/26
+2016/2/28,W,XY Solutions,Invoice EXP21,Internet Service Provider,351.12, A , B1 ,IS-380,2016/3/2
