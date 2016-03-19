@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html[
+    <!ENTITY nbsp "&#160;"> 
+]>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:ui="http://java.sun.com/jsf/facelets">
+
+<h:head>
+	<title>JSF 2 MVC Upload Single File</title>
+</h:head>
+<h:body>
+	<h:form enctype="multipart/form-data">
+		Choose First File to Upload:
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="file" name="file1" />
+		<br />
+		<br />
+		<br /> Choose Second File to
+		Upload: &nbsp;<input type="file" name="file2" />
+		<br />
+		<br />
+		<br />
+		<h:commandButton value="Upload" style="margin-left: 200px;"
+			action="#{uploadMultipleFile.upload}" />
+	</h:form>
+</h:body>
+</html>
