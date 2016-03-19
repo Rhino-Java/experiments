@@ -3,7 +3,7 @@ package test.example;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 
-import test.example.file.util.BinaryReader;
+import test.example.util.BinaryReader;
 
 public class App {
 	public static void main(String[] args) throws FileNotFoundException, IOException {
