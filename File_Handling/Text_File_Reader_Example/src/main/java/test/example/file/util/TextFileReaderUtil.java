@@ -3,17 +3,18 @@ package test.example.file.util;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.io.InputStream;
 import java.util.Scanner;
 
 public class TextFileReaderUtil {
 
 	private static final String DEFAULT_ENCODING = "UTF-8";
 
-	public static String getFileContentAsString(String filePath, String fileEncoding)
+	public static String getFileContentAsString(InputStream inputStream, String fileEncoding)
 			throws FileNotFoundException, IOException {
 		StringBuilder text = new StringBuilder();
 		String newLine = System.getProperty("line.separator");
-		try (Scanner scanner = new Scanner(new FileInputStream(filePath), fileEncoding)) {
+		try (Scanner scanner = new Scanner(inputStream, fileEncoding)) {
 			boolean isFirstLine = true;
 			while (scanner.hasNextLine()) {
 				if (isFirstLine) {
@@ -27,7 +28,16 @@ public class TextFileReaderUtil {
 		return text.toString();
 	}
 
+	public static String getFileContentAsString(String filePath, String fileEncoding)
+			throws FileNotFoundException, IOException {
+		return getFileContentAsString(new FileInputStream(filePath), fileEncoding);
+	}
+
 	public static String getFileContentAsString(String filePath) throws FileNotFoundException, IOException {
-		return getFileContentAsString(filePath, DEFAULT_ENCODING);
+		return getFileContentAsString(new FileInputStream(filePath), DEFAULT_ENCODING);
+	}
+
+	public static String getFileContentAsString(InputStream inputStream) throws FileNotFoundException, IOException {
+		return getFileContentAsString(inputStream, DEFAULT_ENCODING);
 	}
 }
