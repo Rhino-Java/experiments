@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:ui="http://java.sun.com/jsf/facelets">
+<h:head>
+	<title>JSF 2 Spring 4 Example</title>
+</h:head>
+<h:body>
+
+	<h2>User Name List</h2>
+
+	<ul>
+
+		<ui:repeat var="users" value="#{userBean.getUserDetails()}">
+			<li><h3>#{users}</h3></li>
+		</ui:repeat>
+
+	</ul>
+</h:body>
+</html>
