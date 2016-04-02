@@ -1,0 +1,108 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>test.example</groupId>
+	<artifactId>Jasper_Report_Example</artifactId>
+	<version>1.0-SNAPSHOT</version>
+	<packaging>jar</packaging>
+
+	<name>Jasper_Report_Example</name>
+	<url>http://maven.apache.org</url>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+		<jasper.version>6.2.1</jasper.version>
+	</properties>
+
+	<dependencies>
+		<!-- Dependency of jasper report jar -->
+		<dependency>
+			<groupId>net.sf.jasperreports</groupId>
+			<artifactId>jasperreports</artifactId>
+			<version>${jasper.version}</version>
+			<!-- Exclude these dependencies for removing following error in the executable jar -
+			
+Error: A JNI error has occurred, please check your installation and try again
+Exception in thread "main" java.lang.SecurityException: no manifiest section for
+ signature file entry org/bouncycastle/mail/smime/SMIMEEnvelopedGenerator$Envelo
+pedGenerator.class
+        at sun.security.util.SignatureFileVerifier.verifySection(Unknown Source)
+
+        at sun.security.util.SignatureFileVerifier.processImpl(Unknown Source)
+        at sun.security.util.SignatureFileVerifier.process(Unknown Source)
+        at java.util.jar.JarVerifier.processEntry(Unknown Source)
+        at java.util.jar.JarVerifier.update(Unknown Source)
+        at java.util.jar.JarFile.initializeVerifier(Unknown Source)
+        at java.util.jar.JarFile.getInputStream(Unknown Source)
+        at sun.misc.URLClassPath$JarLoader$2.getInputStream(Unknown Source)
+        at sun.misc.Resource.cachedInputStream(Unknown Source)
+        at sun.misc.Resource.getByteBuffer(Unknown Source)
+        at java.net.URLClassLoader.defineClass(Unknown Source)
+        at java.net.URLClassLoader.access$100(Unknown Source)
+        at java.net.URLClassLoader$1.run(Unknown Source)
+        at java.net.URLClassLoader$1.run(Unknown Source)
+        at java.security.AccessController.doPrivileged(Native Method)
+        at java.net.URLClassLoader.findClass(Unknown Source)
+        at java.lang.ClassLoader.loadClass(Unknown Source)
+        at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+        at java.lang.ClassLoader.loadClass(Unknown Source)
+        at sun.launcher.LauncherHelper.checkAndLoadMain(Unknown Source)
+			 -->
+			<exclusions>
+				<exclusion>
+					<groupId>org.bouncycastle</groupId>
+					<artifactId>bcmail-jdk14</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>bouncycastle</groupId>
+					<artifactId>bcmail-jdk14</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>org.bouncycastle</groupId>
+					<artifactId>bctsp-jdk14</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>bouncycastle</groupId>
+					<artifactId>bcprov-jdk14</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>		
+	</dependencies>
+	<build>
+		<plugins>
+		<!-- Following plug-in is used for making executable jar. -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-shade-plugin</artifactId>
+				<version>2.4.3</version>
+				<executions>
+					<execution>
+						<phase>package</phase>
+						<goals>
+							<goal>shade</goal>
+						</goals>
+						<configuration>
+							<transformers>
+								<transformer
+									implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
+									<mainClass>test.example.App</mainClass>
+								</transformer>
+								<transformer
+									implementation="org.apache.maven.plugins.shade.resource.AppendingTransformer">
+									<!-- Since 'jasperreports_extension.properties' file is present in jasper reports jar as 
+									well as in resources directory (Arial-Unicode font resources). Merge those files into one. -->
+									<resource>jasperreports_extension.properties</resource>
+								</transformer>
+							</transformers>
+							<artifactSet>
+							</artifactSet>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+</project>
