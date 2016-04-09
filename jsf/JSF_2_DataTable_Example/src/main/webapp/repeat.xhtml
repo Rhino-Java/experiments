@@ -1,0 +1,64 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core">
+<h:head>
+	<h:outputStylesheet library="css" name="table.css" />
+</h:head>
+<h:body>
+	<h:form>
+		<h1>
+			<h:outputText value="JSF 2 Data Tables Example - ui:repeat" />
+		</h1>
+		<br />
+		<h3>
+			<h:outputText value="Following are the details of employees -" />
+		</h3>
+		<br />
+		<table class="emp-table" border="1">
+			<tr>
+
+				<th class="emp-table-header">Employee Id</th>
+				<th class="emp-table-header">Employee Name</th>
+				<th class="emp-table-header">Employee Designation</th>
+				<th class="emp-table-header">Employee Salary</th>
+			</tr>
+			<ui:repeat var="emp" value="#{employees.employeeList}"
+				varStatus="status">
+				<h:panelGroup rendered="#{status.even}">
+					<tr>
+
+						<td class="emp-table-even-row"><h:outputText
+								value="#{emp.id}" /></td>
+						<td class="emp-table-even-row"><h:outputText
+								value="#{emp.name}" /></td>
+						<td class="emp-table-even-row"><h:outputText
+								value="#{emp.designation}" /></td>
+						<td class="emp-table-even-row"><h:outputText
+								value="#{emp.salary}" /></td>
+					</tr>
+				</h:panelGroup>
+				<h:panelGroup rendered="#{status.odd}">
+					<tr>
+
+						<td class="emp-table-odd-row"><h:outputText value="#{emp.id}" /></td>
+						<td class="emp-table-odd-row"><h:outputText
+								value="#{emp.name}" /></td>
+						<td class="emp-table-odd-row"><h:outputText
+								value="#{emp.designation}" /></td>
+						<td class="emp-table-odd-row"><h:outputText
+								value="#{emp.salary}" /></td>
+					</tr>
+				</h:panelGroup>
+			</ui:repeat>
+			<tr>
+
+				<td class="emp-table-footer">Employee Id</td>
+				<td class="emp-table-footer">Employee Name</td>
+				<td class="emp-table-footer">Employee Designation</td>
+				<td class="emp-table-footer">Employee Salary</td>
+			</tr>
+		</table>
+	</h:form>
+</h:body>
+</html>

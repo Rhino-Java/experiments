@@ -1,0 +1,61 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core">
+<h:head>
+	<h:outputStylesheet library="css" name="table.css" />
+</h:head>
+<body>
+	<h:form>
+		<h1>
+			<h:outputText value="JSF 2 Data Tables Example - h:dataTable" />
+		</h1>
+		<br />
+		<h3>
+			<h:outputText value="Following are the details of employees -" />
+		</h3>
+		<br />
+		<h:dataTable value="#{employees.employeeList}" var="emp" border="1"
+			styleClass="emp-table" headerClass="emp-table-header"
+			footerClass="emp-table-footer"
+			rowClasses="emp-table-even-row,emp-table-odd-row">
+			<h:column>
+				<f:facet name="header">
+					<h:outputText value="Employee Id" />
+				</f:facet>
+				<h:outputText value="#{emp.id}" />
+				<f:facet name="footer">
+					<h:outputText value="Employee Id" />
+				</f:facet>
+			</h:column>
+			<h:column>
+				<f:facet name="header">
+					<h:outputText value="Employee Name" />
+				</f:facet>
+				<h:outputText value="#{emp.name}" />
+				<f:facet name="footer">
+					<h:outputText value="Employee Name" />
+				</f:facet>
+			</h:column>
+			<h:column>
+				<f:facet name="header">
+					<h:outputText value="Employee Designation" />
+				</f:facet>
+				<h:outputText value="#{emp.designation}" />
+				<f:facet name="footer">
+					<h:outputText value="Employee Designation" />
+				</f:facet>
+			</h:column>
+			<h:column>
+				<f:facet name="header">
+					<h:outputText value="Employee Salary" />
+				</f:facet>
+				<h:outputText value="#{emp.salary}" />
+				<f:facet name="footer">
+					<h:outputText value="Employee Salary" />
+				</f:facet>
+			</h:column>
+		</h:dataTable>
+	</h:form>
+</body>
+</html>
