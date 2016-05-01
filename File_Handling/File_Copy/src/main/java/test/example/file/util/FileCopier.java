@@ -16,6 +16,7 @@ public class FileCopier {
 
 	}
 
+	@SuppressWarnings("resource")
 	public static void copy(File sourceFile, File destinationFile) throws IOException {
 		try (FileChannel inputFileChannel = new FileInputStream(sourceFile).getChannel()) {
 			copy(inputFileChannel, destinationFile);
@@ -31,7 +32,7 @@ public class FileCopier {
 			copy(inputChannel, destinationFile);
 		}
 	}
-
+	@SuppressWarnings("resource")
 	public static void copy(ReadableByteChannel inputChannel, File destinationFile) throws IOException {
 		long offset = 0;
 		long noOfBytesToTransferred = 1024;
