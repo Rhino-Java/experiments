@@ -1,10 +1,10 @@
-package test.example;
+package test.example.singleton;
 
 public class SingletonClass {
 
 	private static SingletonClass instance;
 
-	private static boolean instanceCreated;
+	private static volatile boolean instanceCreated;
 
 	private int counter;
 

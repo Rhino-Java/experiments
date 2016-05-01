@@ -1,5 +1,7 @@
 package test.example;
 
+import test.example.singleton.SingletonClass;
+
 public class App {
 	public static void main(String[] args) {
 
